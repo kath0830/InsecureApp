@@ -52,5 +52,7 @@ venv\Scripts\activate      # Windows
 pip install fastapi uvicorn pyjwt
 uvicorn insecure_api_crud:app --reload
 
+sonar test
+
 
 Acceder a: http://127.0.0.1:8000/docs
